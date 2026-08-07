@@ -13,7 +13,7 @@ Corporate Business Website
 - Tailwind CSS
 - Framer Motion
 - React Icons
-- Lucide Icons
+- Lucide Icons / v2Boxicons
 - EmailJS / Formspree (Contact Forms)
 
 ## Purpose
@@ -560,3 +560,8 @@ Footer.jsx
 The website should immediately communicate professionalism, regulatory expertise, and trust.
 
 Visitors should feel confident that SNN Compliance can guide them through complex certification and compliance processes while presenting a clean, premium corporate experience.
+
+
+# inspiration
+
+https://alephindia.in/
