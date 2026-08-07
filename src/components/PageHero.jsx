@@ -1,2 +1,19 @@
 import { motion } from 'framer-motion'
-export default function PageHero({ eyebrow, title, text }) { return <section className="bg-gradient-to-br from-blue-50 via-white to-orange-50 py-20"><motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .5 }} className="container-site max-w-4xl text-center"><p className="eyebrow">{eyebrow}</p><h1 className="font-heading text-4xl font-bold tracking-tight text-slate-950 sm:text-5xl">{title}</h1><p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-600">{text}</p></motion.div></section> }
+export default function PageHero({ eyebrow, title, text }) {
+  return (
+    <section className="bg-gradient-to-br from-blue-50 via-white to-orange-50 py-20">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="container-site max-w-4xl text-center"
+      >
+        <p className="eyebrow">{eyebrow}</p>
+        <h1 className="font-heading text-4xl font-bold tracking-tight text-slate-950 sm:text-5xl">
+          {title}
+        </h1>
+        <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-600">{text}</p>
+      </motion.div>
+    </section>
+  )
+}

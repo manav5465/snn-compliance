@@ -2,4 +2,59 @@ import { Link } from 'react-router-dom'
 import { ExternalLink, Mail, MapPin, Phone } from 'lucide-react'
 import { navLinks } from '../../data/siteData'
 
-export default function Footer() { return <footer className="bg-slate-950 text-slate-300"><div className="container-site grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-4"><div><p className="font-heading text-xl font-bold text-white">SNN <span className="text-blue-400">Compliance</span></p><p className="mt-4 text-sm leading-6">Your trusted partner for Indian and international product certification and regulatory compliance.</p></div><div><h2 className="font-heading font-semibold text-white">Quick Links</h2><div className="mt-4 grid gap-3 text-sm">{navLinks.slice(1).map(x => <Link key={x.to} to={x.to} className="hover:text-white">{x.label}</Link>)}</div></div><div><h2 className="font-heading font-semibold text-white">Core Services</h2><div className="mt-4 grid gap-3 text-sm"><span>BIS & ISI Certification</span><span>WPC & TEC Approvals</span><span>EPR & BEE Compliance</span><span>International Certifications</span></div></div><div><h2 className="font-heading font-semibold text-white">Contact</h2><div className="mt-4 grid gap-4 text-sm"><span className="flex gap-3"><Mail size={18} /> info@snncompliance.com</span><span className="flex gap-3"><Phone size={18} /> +91 00000 00000</span><span className="flex gap-3"><MapPin size={18} /> India</span><a href="#" aria-label="Social profile" className="hover:text-white"><ExternalLink size={20} /></a></div></div></div><div className="border-t border-slate-800 py-5 text-center text-sm">© {new Date().getFullYear()} SNN Compliance. All rights reserved.</div></footer> }
+export default function Footer() {
+  return (
+    <footer className="bg-slate-950 text-slate-300">
+      <div className="container-site grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-4">
+        <div>
+          <p className="font-heading text-xl font-bold text-white">
+            SNN <span className="text-blue-400">Compliance</span>
+          </p>
+          <p className="mt-4 text-sm leading-6">
+            Your trusted partner for Indian and international product certification and regulatory
+            compliance.
+          </p>
+        </div>
+        <div>
+          <h2 className="font-heading font-semibold text-white">Quick Links</h2>
+          <div className="mt-4 grid gap-3 text-sm">
+            {navLinks.slice(1).map((x) => (
+              <Link key={x.to} to={x.to} className="hover:text-white">
+                {x.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+        <div>
+          <h2 className="font-heading font-semibold text-white">Core Services</h2>
+          <div className="mt-4 grid gap-3 text-sm">
+            <span>BIS & ISI Certification</span>
+            <span>WPC & TEC Approvals</span>
+            <span>EPR & BEE Compliance</span>
+            <span>International Certifications</span>
+          </div>
+        </div>
+        <div>
+          <h2 className="font-heading font-semibold text-white">Contact</h2>
+          <div className="mt-4 grid gap-4 text-sm">
+            <span className="flex gap-3">
+              <Mail size={18} /> info@snncompliance.com
+            </span>
+            <span className="flex gap-3">
+              <Phone size={18} /> +91 00000 00000
+            </span>
+            <span className="flex gap-3">
+              <MapPin size={18} /> India
+            </span>
+            <a href="#" aria-label="Social profile" className="hover:text-white">
+              <ExternalLink size={20} />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="border-t border-slate-800 py-5 text-center text-sm">
+        © {new Date().getFullYear()} SNN Compliance. All rights reserved.
+      </div>
+    </footer>
+  )
+}

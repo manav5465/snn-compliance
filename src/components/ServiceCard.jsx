@@ -1,1 +1,15 @@
-export default function ServiceCard({ service }) { return <article className="card"><h3 className="text-lg font-semibold text-slate-900">{service.name}</h3><ul className="mt-4 space-y-2 text-sm text-slate-600">{service.items.map(item => <li key={item} className="flex gap-2"><span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />{item}</li>)}</ul></article> }
+export default function ServiceCard({ service }) {
+  return (
+    <article className="card">
+      <h3 className="text-lg font-semibold text-slate-900">{service.name}</h3>
+      <ul className="mt-4 space-y-2 text-sm text-slate-600">
+        {service.items.map((item) => (
+          <li key={item} className="flex gap-2">
+            <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
+            {item}
+          </li>
+        ))}
+      </ul>
+    </article>
+  )
+}
