@@ -1,0 +1,562 @@
+# SNN Compliance Website Context
+
+## Project Name
+SNN Compliance
+
+## Project Type
+Corporate Business Website
+
+## Tech Stack
+- React 19
+- Vite
+- React Router
+- Tailwind CSS
+- Framer Motion
+- React Icons
+- Lucide Icons
+- EmailJS / Formspree (Contact Forms)
+
+## Purpose
+
+SNN Compliance is a professional compliance and certification consultancy helping manufacturers, importers, exporters and brands obtain regulatory approvals and certifications for Indian and International markets.
+
+The website should build trust, showcase expertise, explain services clearly, and generate qualified business leads.
+
+Overall design should feel:
+
+- Premium
+- Corporate
+- Modern
+- Clean
+- Trustworthy
+- Technology Driven
+
+Avoid flashy animations.
+
+Think Deloitte, EY, KPMG, BSI, SGS, TÜV SÜD style websites.
+
+--------------------------------------------------
+
+# Brand Identity
+
+Company Name
+
+SNN Compliance
+
+Tagline
+
+Your Trusted Compliance Partner
+
+Brand Personality
+
+Professional
+Reliable
+Transparent
+Knowledgeable
+Efficient
+Global
+
+--------------------------------------------------
+
+# Logo
+
+Logo uses two primary colors:
+
+Blue
+Orange
+
+Use the logo as inspiration for the entire UI.
+
+--------------------------------------------------
+
+# Color Palette
+
+Primary Blue
+#2E67C7
+
+Secondary Blue
+#3F7DE0
+
+Dark Blue
+#17408B
+
+Orange
+#F57C21
+
+Light Orange
+#FFA14A
+
+Background
+#FFFFFF
+
+Light Section
+#F8FAFC
+
+Card Background
+#FFFFFF
+
+Dark Text
+#1E293B
+
+Secondary Text
+#64748B
+
+Border
+#E2E8F0
+
+Success
+#22C55E
+
+--------------------------------------------------
+
+# Typography
+
+Heading Font
+
+Poppins
+
+Body Font
+
+Inter
+
+Headings
+
+Bold
+Large
+Clean
+
+Body
+
+Readable
+Minimal
+Professional
+
+--------------------------------------------------
+
+# UI Style
+
+Lots of whitespace
+
+Rounded corners
+
+Large cards
+
+Soft shadows
+
+Subtle gradients
+
+Smooth hover animations
+
+Modern buttons
+
+Premium spacing
+
+Grid based layout
+
+Responsive
+
+--------------------------------------------------
+
+# Buttons
+
+Primary Button
+
+Blue background
+
+White text
+
+Rounded
+
+Hover:
+Orange background
+
+Secondary Button
+
+White
+
+Blue Border
+
+Blue Text
+
+Hover:
+Blue background
+White text
+
+--------------------------------------------------
+
+# Animation Style
+
+Use Framer Motion
+
+Fade Up
+
+Fade Left
+
+Fade Right
+
+Small Scale Hover
+
+No exaggerated animations
+
+Duration
+
+0.4s to 0.7s
+
+--------------------------------------------------
+
+# Website Pages
+
+Home
+
+About Us
+
+Services
+
+Industries
+
+Why Choose Us
+
+Contact
+
+--------------------------------------------------
+
+# Homepage Structure
+
+1 Hero Section
+
+Large headline
+
+CTA Button
+
+Professional illustration or compliance themed graphics
+
+Background with subtle gradient
+
+2 Trust Section
+
+Why businesses choose SNN
+
+3 Services Overview
+
+Service cards
+
+4 Process
+
+Step-by-step compliance journey
+
+5 Industries We Serve
+
+6 Why SNN
+
+Statistics
+
+Experience
+
+Support
+
+Success
+
+7 Client Benefits
+
+8 Contact CTA
+
+--------------------------------------------------
+
+# Services
+
+Display all services professionally.
+
+ Compliance & Regulatory Services Portfolio
+Bureau of Indian Standards (BIS)
+1.	BIS CRS Registration for Electronics & IT Products 
+•	Mobile Phones
+•	Power Banks
+•	Laptops & Tablets
+•	LED TVs
+•	Smart Watches
+•	Bluetooth Speakers
+•	Wireless Headphones & Earbuds
+•	Adapters, Chargers & SMPS
+•	CCTV Cameras
+•	Servers, Storage Devices & IT Equipment
+2.	ISI Certification for Domestic Manufacturers 
+•	Electrical Appliances
+•	Industrial Products
+•	Steel Products
+•	Cement Products
+•	Batteries
+•	Cables & Wires
+•	Consumer Goods under Mandatory QCOBIS 
+3.	FMCS / ISI Certification for Foreign Manufacturers 
+•	Overseas Factory Inspection Coordination
+•	Testing & Documentation Support
+•	BIS Licence Grant & Renewal
+•	Authorized Indian Representative (AIR) Support
+4.	BIS Certification for Solar Products 
+•	Grid Connected Solar Inverters
+•	Solar PV Modules
+•	Solar Components
+•	Energy Storage Products
+ Wireless & Telecom Approvals
+5.	WPC-ETA Approval 
+o	Wi-Fi Products 
+o	Bluetooth Devices 
+o	RF Equipment 
+o	IoT Devices 
+o	Wireless Modules 
+6.	TEC / MTCTE Certification 
+o	Telecom Equipment 
+o	Network Switches 
+o	Routers 
+o	Access Points 
+o	Optical & Transmission Equipment 
+7.	TAC / IMEI Registration 
+o	Mobile Phones 
+o	Wireless Communication Devices 
+o	IMEI Database Registration 
+
+  Energy Efficiency & Sustainability
+8.	BEE Star Rating Certification 
+o	Home Appliances 
+o	Lighting Products 
+o	Solar Equipment 
+o	Industrial Equipment 
+9.	CPCB EPR Registration & Compliance 
+o	E-Waste EPR 
+o	Plastic Waste EPR 
+o	Battery Waste EPR 
+o	Annual Returns & Compliance Filing 
+o	EPR Credit Management 
+
+ Legal & Metrology Compliance
+10.	Legal Metrology (LMPC) Registration 
+o	Importer Registration 
+o	Packaged Commodity Compliance 
+o	Label Review & Compliance 
+11.	DGFT Licences & Trade Compliance 
+o	PIMS Registration 
+o	Restricted Import Licence 
+o	Export Authorizations 
+o	Import Justification & Documentation Support 
+
+International Product Certifications
+
+12.	CE Certification 
+o	EMC Compliance
+o	Safety Compliance
+o	Technical Documentation
+o	Declaration of Conformity
+13.	UL Certification 
+o	North American Market Compliance 
+o	Product Safety Certification 
+14.	RoHS & REACH Compliance 
+o	Hazardous Substance Compliance 
+o	Environmental Declarations 
+15.	CB Scheme Certification 
+o	International Safety Certification 
+o	Multi-Country Approval Support 
+16.	RBA Compliance (Responsible Business Alliance)
+o	Supply Chain Compliance 
+o	Social & Ethical Audits 
+o	Factory Assessment Support
+17.	FCC Certification (USA)
+o	RF Testing 
+o	EMC Testing 
+o	FCC Equipment Authorization
+
+
+
+Industrial & Safety Approvals
+18.	PESO Certification 
+o	Explosive & Petroleum Equipment 
+o	Gas Cylinders & Valves 
+o	Hazardous Area Equipment 
+19.	Product Testing Services 
+o	NABL Accredited Testing 
+o	EMC/EMI Testing 
+o	Safety Testing 
+o	Environmental Testing
+
+
+The services should be grouped into visually attractive cards with icons. :contentReference[oaicite:0]{index=0}
+
+--------------------------------------------------
+
+# Homepage Hero
+
+Headline
+
+Compliance Made Simple.
+
+Subheadline
+
+Helping businesses achieve Indian and international regulatory certifications with confidence.
+
+CTA
+
+Get Consultation
+
+Secondary CTA
+
+Our Services
+
+--------------------------------------------------
+
+# Sections Background
+
+Alternate between
+
+White
+
+Light Gray
+
+White
+
+Light Blue Tint
+
+--------------------------------------------------
+
+# Cards
+
+Border Radius
+
+20px
+
+Shadow
+
+Soft
+
+Hover
+
+Lift
+
+Blue border glow
+
+--------------------------------------------------
+
+# Icons
+
+Use Lucide Icons
+
+Simple line icons
+
+Blue icons
+
+Orange hover accents
+
+--------------------------------------------------
+
+# Forms
+
+Minimal
+
+Professional
+
+Rounded inputs
+
+Validation
+
+Required fields
+
+Fields
+
+Name
+
+Company
+
+Email
+
+Phone
+
+Service Required
+
+Message
+
+--------------------------------------------------
+
+# Footer
+
+Company Logo
+
+Quick Links
+
+Services
+
+Contact
+
+Email
+
+Phone
+
+Location
+
+Social Icons
+
+Copyright
+
+--------------------------------------------------
+
+# Code Standards
+
+Always write reusable React components.
+
+Use functional components only.
+
+Use Tailwind utility classes.
+
+Avoid inline styles.
+
+Keep components modular.
+
+Create reusable sections.
+
+Maintain consistent spacing.
+
+Use semantic HTML.
+
+Lazy load heavy assets.
+
+Optimize images.
+
+Follow accessibility best practices.
+
+--------------------------------------------------
+
+# Folder Structure
+
+src/
+
+components/
+layout/
+pages/
+sections/
+assets/
+hooks/
+data/
+utils/
+
+--------------------------------------------------
+
+# Naming Convention
+
+PascalCase
+
+Examples
+
+Hero.jsx
+
+ServiceCard.jsx
+
+ContactForm.jsx
+
+Navbar.jsx
+
+Footer.jsx
+
+--------------------------------------------------
+
+# Design Goal
+
+The website should immediately communicate professionalism, regulatory expertise, and trust.
+
+Visitors should feel confident that SNN Compliance can guide them through complex certification and compliance processes while presenting a clean, premium corporate experience.
